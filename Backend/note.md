@@ -15,3 +15,9 @@ B3: tạo các folder liên quan đến kiến trúc dự án
 - .gitignore ( k đẩy lên các file sau : /node_modules/vendor, /.idea. .idea/, .env )
 
 B4: cấu hình .babelrc, viewEngine, serve.js
+
+B5: thiết lập database
+
+- tải sequelize : npm install --save sequelize@6.6.2 và npm install --save-dev sequelize-cli@6.2.0
+- thêm .sequelizerc rồi thiết lập cấu hình tạo các file
+- cd src rồi npx sequelize-cli init ( khởi tạo các file liên quan trong .sequelizerc)
