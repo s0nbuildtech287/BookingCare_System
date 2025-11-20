@@ -1,0 +1,5 @@
+{
+  "presets": ["@babel/preset-env"]
+}
+// bộ cấu hình thông minh của Babel giúp chuyển code JavaScript hiện đại (ES6+)
+// thành code tương thích với môi trường bạn đang chạy (Node.js cũ hoặc trình duyệt cũ).
