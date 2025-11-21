@@ -25,7 +25,7 @@ B5: thiết lập database
   ví dụ : npx sequelize-cli model:generate --name User --attributes firstName:string,lastName:string,email:string
 - thêm NODE_ENV trong .env chỉnh loại db muốn kết nối
 - tạo database sẵn trong xampp
-- npx sequelize-cli db:migrate ( ket noi len xampp va tao cac model)
+- npx sequelize-cli db:migrate ( ket noi len xampp va cap nhap tao cac model)
 - npx sequelize-cli seed:generate --name demo-user ( tao du lieu fake )
   .+ npx sequelize-cli db:seed:all
   .+ npx sequelize-cli db:seed:undo / npx sequelize-cli db:seed:undo --seed name-of-seed-as-in-data
