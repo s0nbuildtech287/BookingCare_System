@@ -1,1 +1,0 @@
-<!-- REACT CLASS , REDUX -->
