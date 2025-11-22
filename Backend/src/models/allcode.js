@@ -23,5 +23,5 @@ module.exports = (sequelize, DataTypes) => {
       modelName: "Allcode",
     }
   );
-  return Allcpde;
+  return Allcode;
 };

@@ -24,5 +24,5 @@ module.exports = (sequelize, DataTypes) => {
       modelName: "Booking",
     }
   );
-  return Allcpde;
+  return Booking;
 };

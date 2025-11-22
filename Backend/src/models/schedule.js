@@ -24,5 +24,5 @@ module.exports = (sequelize, DataTypes) => {
       modelName: "Schedule",
     }
   );
-  return Allcpde;
+  return Schedule;
 };

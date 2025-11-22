@@ -23,5 +23,5 @@ module.exports = (sequelize, DataTypes) => {
       modelName: "History",
     }
   );
-  return Allcpde;
+  return History;
 };
