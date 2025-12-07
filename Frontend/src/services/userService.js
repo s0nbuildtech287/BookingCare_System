@@ -7,4 +7,10 @@ const handleLoginApi = async (useremail, userpassword) => {
   });
 };
 
-export { handleLoginApi };
+const getAllUsers = (inputId) => {
+  return axios.get("/api/get-all-users", {
+    params: { id: inputId },
+  });
+};
+
+export { handleLoginApi, getAllUsers };
